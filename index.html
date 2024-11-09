@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dough calc</title>
+</head>
+<body>
+    <h1>Dough calc</h1>
+    <p>Utility for creating bread recipes</p>
+    <hr />
+
+    <p>
+        Enter grams of flour and desired hydration. When you click "calculate", it will tell 
+        you how many grams of flour, water, salt and yeast are needed.
+    </p>
+
+    <label for="flour-inp">Flour (g)</label>
+    <input id="flour-inp" type="number" value="400" />
+    <br />
+    <br />
+    <label for="hydration-inp">Hydration (%)</label>
+    <input id="hydration-inp" type="number" value="75" />
+
+    <button id="calc-btn">calculate</button>
+
+    <div id="output-container"></div>
+
+    <script src="./js/calc.js"></script>
+</body>
+</html>
